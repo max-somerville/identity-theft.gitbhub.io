@@ -1,0 +1,28 @@
+ul {   
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    font-weight: 700;
+}

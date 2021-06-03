@@ -1,0 +1,13 @@
+table, td, th {
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 75%;
+    border-collapse: collapse;
+  }
+
+.info {
+    margin-bottom: 70px;
+}

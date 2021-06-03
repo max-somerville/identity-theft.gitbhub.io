@@ -1,0 +1,82 @@
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+table, tbody, tr, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.information {
+    display: flex;
+    flex-direction: row; 
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.topic {
+    margin-right: 40px;
+}
+
+@media (max-width: 1075px) {
+    .information {
+        flex-direction: column;
+    }
+    .topic {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+}
+
+.big_table {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.portfolio_bit table {
+    width: 750px;
+}
+.portfolio_bit {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.section {
+    width: 750px;
+}
+
+@media (max-width: 750px)
+{
+    .section {
+        width: 100%;
+    }
+}

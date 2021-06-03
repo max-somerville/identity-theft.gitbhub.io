@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles/header.css">
-        <link rel="stylesheet" href="styles/main.css">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
         <header>
-            <h1>Identity Theft</h1>
-            <nav>
-                <ul class="nav_bar">
-                    <li><a href="#"><strong>Home page</strong></a></li>
-                    <li><a href="Documents/Technology_Topic.html">Technology/topic</a></li>
-                    <li><a href="Documents/Opportunities.html">Opportunities</a></li>
-                    <li><a href="Documents/Risks.html">Risks</a></li>
-                    <li><a href="Documents/Choices.html">Choices</a></li>
-                    <li><a href="Documents/Ethical_Reflections.html">Ethical Reflections</a></li>
-                    <li><a href="Documents/References.html">References</a></li>
-                    <li><a href="Documents/Process_Support.html">Process Support</a></li>
-                </ul>
-            </nav>
+            <span onclick="openNav()"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" alt="Open nav" /></span>
+            <div class="header__title" id="title">
+                <h1>A Framework for Enhancing the Social Good in Computing Education:</h1>
+                <h2>A values Approach</h2>
+            </div>
         </header>
         <main>
-            <p>Insert information here</p>
+            <div class="header__nav" id="header__nav">
+                <a href="javascript:void(0)" class="nav__close" onclick="closeNav()">&times;</a>
+                <a href="#">Home page</a>
+                <a href="pages/Topic.html">Technology/Topic</a>
+                <a href="pages/Opportunities.html">Opportunities</a>
+                <a href="pages/Risks.html">Risks</a>
+                <a href="pages/Choices.html">Choices</a>
+                <a href="pages/Reflections.html">Ethical Reflections</a>
+                <a href="pages/References.html">References</a>
+                <a href="pages/ProcessSupport/Process.html">Process Support</a>
+            </div>
+            <div id="main">
+                <h1>Hello</h1>
+            </div>
         </main>
-
+        
+        <script src="scripts/nav.js"></script>
     </body>
 </html>
